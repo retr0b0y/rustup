@@ -47,7 +47,7 @@ pub mod temp;
 pub(crate) mod triple;
 pub(crate) use triple::*;
 
-pub static DEFAULT_DIST_SERVER: &str = "https://dev.mcst.ru/rust";
+pub static DEFAULT_DIST_SERVER: &str = "http://72.56.245.198/rust";
 
 /// Returns a error message indicating that certain [`Component`]s are missing in a toolchain distribution.
 ///
